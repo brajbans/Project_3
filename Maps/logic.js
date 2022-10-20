@@ -191,4 +191,4 @@ for (let i = 0; i < countries.length; i++) {
     // This will make our marker's size proportionate to its population.
     radius: markerSize(countries[i].worldcups_won)
   }).bindPopup(`<h1>${countries[i].name}</h1> <hr> <h3>World Cups Won: ${countries[i].worldcups_won.toLocaleString()}</h3>`).addTo(myMap);
-}
+};
