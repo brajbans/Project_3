@@ -1,0 +1,85 @@
+tournament_id,tournament_name,position,team_id,team_name,team_code
+WC-1930,1930 FIFA World Cup,1,T-80,Uruguay,URY
+WC-1930,1930 FIFA World Cup,2,T-03,Argentina,ARG
+WC-1930,1930 FIFA World Cup,3,T-79,United States,USA
+WC-1930,1930 FIFA World Cup,4,T-83,Yugoslavia,YUG
+WC-1934,1934 FIFA World Cup,1,T-39,Italy,ITA
+WC-1934,1934 FIFA World Cup,2,T-20,Czechoslovakia,CSK
+WC-1934,1934 FIFA World Cup,3,T-29,Germany,DEU
+WC-1934,1934 FIFA World Cup,4,T-05,Austria,AUT
+WC-1938,1938 FIFA World Cup,1,T-39,Italy,ITA
+WC-1938,1938 FIFA World Cup,2,T-34,Hungary,HUN
+WC-1938,1938 FIFA World Cup,3,T-09,Brazil,BRA
+WC-1938,1938 FIFA World Cup,4,T-71,Sweden,SWE
+WC-1950,1950 FIFA World Cup,1,T-80,Uruguay,URY
+WC-1950,1950 FIFA World Cup,2,T-09,Brazil,BRA
+WC-1950,1950 FIFA World Cup,3,T-71,Sweden,SWE
+WC-1950,1950 FIFA World Cup,4,T-70,Spain,ESP
+WC-1954,1954 FIFA World Cup,1,T-82,West Germany,DEU
+WC-1954,1954 FIFA World Cup,2,T-34,Hungary,HUN
+WC-1954,1954 FIFA World Cup,3,T-05,Austria,AUT
+WC-1954,1954 FIFA World Cup,4,T-80,Uruguay,URY
+WC-1958,1958 FIFA World Cup,1,T-09,Brazil,BRA
+WC-1958,1958 FIFA World Cup,2,T-71,Sweden,SWE
+WC-1958,1958 FIFA World Cup,3,T-28,France,FRA
+WC-1958,1958 FIFA World Cup,4,T-82,West Germany,DEU
+WC-1962,1962 FIFA World Cup,1,T-09,Brazil,BRA
+WC-1962,1962 FIFA World Cup,2,T-20,Czechoslovakia,CSK
+WC-1962,1962 FIFA World Cup,3,T-13,Chile,CHL
+WC-1962,1962 FIFA World Cup,4,T-83,Yugoslavia,YUG
+WC-1966,1966 FIFA World Cup,1,T-27,England,ENG
+WC-1966,1966 FIFA World Cup,2,T-82,West Germany,DEU
+WC-1966,1966 FIFA World Cup,3,T-56,Portugal,PRT
+WC-1966,1966 FIFA World Cup,4,T-69,Soviet Union,SUN
+WC-1970,1970 FIFA World Cup,1,T-09,Brazil,BRA
+WC-1970,1970 FIFA World Cup,2,T-39,Italy,ITA
+WC-1970,1970 FIFA World Cup,3,T-82,West Germany,DEU
+WC-1970,1970 FIFA World Cup,4,T-80,Uruguay,URY
+WC-1974,1974 FIFA World Cup,1,T-82,West Germany,DEU
+WC-1974,1974 FIFA World Cup,2,T-46,Netherlands,NLD
+WC-1974,1974 FIFA World Cup,3,T-55,Poland,POL
+WC-1974,1974 FIFA World Cup,4,T-09,Brazil,BRA
+WC-1978,1978 FIFA World Cup,1,T-03,Argentina,ARG
+WC-1978,1978 FIFA World Cup,2,T-46,Netherlands,NLD
+WC-1978,1978 FIFA World Cup,3,T-09,Brazil,BRA
+WC-1978,1978 FIFA World Cup,4,T-39,Italy,ITA
+WC-1982,1982 FIFA World Cup,1,T-39,Italy,ITA
+WC-1982,1982 FIFA World Cup,2,T-82,West Germany,DEU
+WC-1982,1982 FIFA World Cup,3,T-55,Poland,POL
+WC-1982,1982 FIFA World Cup,4,T-28,France,FRA
+WC-1986,1986 FIFA World Cup,1,T-03,Argentina,ARG
+WC-1986,1986 FIFA World Cup,2,T-82,West Germany,DEU
+WC-1986,1986 FIFA World Cup,3,T-28,France,FRA
+WC-1986,1986 FIFA World Cup,4,T-06,Belgium,BEL
+WC-1990,1990 FIFA World Cup,1,T-82,West Germany,DEU
+WC-1990,1990 FIFA World Cup,2,T-03,Argentina,ARG
+WC-1990,1990 FIFA World Cup,3,T-39,Italy,ITA
+WC-1990,1990 FIFA World Cup,4,T-27,England,ENG
+WC-1994,1994 FIFA World Cup,1,T-09,Brazil,BRA
+WC-1994,1994 FIFA World Cup,2,T-39,Italy,ITA
+WC-1994,1994 FIFA World Cup,3,T-71,Sweden,SWE
+WC-1994,1994 FIFA World Cup,4,T-10,Bulgaria,BGR
+WC-1998,1998 FIFA World Cup,1,T-28,France,FRA
+WC-1998,1998 FIFA World Cup,2,T-09,Brazil,BRA
+WC-1998,1998 FIFA World Cup,3,T-17,Croatia,HRV
+WC-1998,1998 FIFA World Cup,4,T-46,Netherlands,NLD
+WC-2002,2002 FIFA World Cup,1,T-09,Brazil,BRA
+WC-2002,2002 FIFA World Cup,2,T-29,Germany,DEU
+WC-2002,2002 FIFA World Cup,3,T-76,Turkey,TUR
+WC-2002,2002 FIFA World Cup,4,T-68,South Korea,KOR
+WC-2006,2006 FIFA World Cup,1,T-39,Italy,ITA
+WC-2006,2006 FIFA World Cup,2,T-28,France,FRA
+WC-2006,2006 FIFA World Cup,3,T-29,Germany,DEU
+WC-2006,2006 FIFA World Cup,4,T-56,Portugal,PRT
+WC-2010,2010 FIFA World Cup,1,T-70,Spain,ESP
+WC-2010,2010 FIFA World Cup,2,T-46,Netherlands,NLD
+WC-2010,2010 FIFA World Cup,3,T-29,Germany,DEU
+WC-2010,2010 FIFA World Cup,4,T-80,Uruguay,URY
+WC-2014,2014 FIFA World Cup,1,T-29,Germany,DEU
+WC-2014,2014 FIFA World Cup,2,T-03,Argentina,ARG
+WC-2014,2014 FIFA World Cup,3,T-46,Netherlands,NLD
+WC-2014,2014 FIFA World Cup,4,T-09,Brazil,BRA
+WC-2018,2018 FIFA World Cup,1,T-28,France,FRA
+WC-2018,2018 FIFA World Cup,2,T-17,Croatia,HRV
+WC-2018,2018 FIFA World Cup,3,T-06,Belgium,BEL
+WC-2018,2018 FIFA World Cup,4,T-27,England,ENG
