@@ -41,4 +41,43 @@ Balvinder Rajbans
 
 #### tournament_standings
 
+## Applications used:
+
+Python - Libraries: Pandas, SQLAlchamy
+
+Jupyter Notebook
+
+Database - PGAdmin (PostgresSQL)
+
+Java - Libraries: d3, plotly, leaflet, chart
+
+## Process:
+
+### Extract :
+
+Open python file and Import csv files into Pandas 
+
+### Transform:
+
+Transform tables to formal specification
+
+
+
+##### Data Modelling - Tables :
+
+Create the tables using www.quickdatabase.com 
+
+
+
+
+### Load:
+
+Connect to postgres SQL database -> load data.
+
+Formal specification to be created that defines the tables format can be imported into postgres SQL database.
+
+
+
+
+
 
