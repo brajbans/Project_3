@@ -1,0 +1,45 @@
+/* Custom CSS to override Bootswatch Cerulean settings */
+
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+body {
+    background-color: #EAEAF3;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+.display-5 {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.display-6 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.jumbotron {
+    background-color: #fff;
+    padding: 2rem 2rem;
+}
+
+.img-multimedia {
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.img-multimedia:hover {
+    border: 2px solid #2FA4E7;
+}

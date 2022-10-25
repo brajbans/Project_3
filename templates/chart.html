@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>HealthTimes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./static/bootswatch_cerulean/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="./static/css/custom.css">
+    <link rel="shortcut icon" href="">
+
+    <!-- D3 CSS and JS -->
+    <link rel="stylesheet" href="./static/css/d3Style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+</head>
+
+<body>
+  <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+    <div class="container">
+      <a href="./" class="navbar-brand">HealthTimes</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Health Indicators <span class="caret"></span></a>
+            <div class="dropdown-menu" aria-labelledby="themes">
+              <a class="dropdown-item" href="./chart">Interactive Chart</a>
+              <a class="dropdown-item" href="./map">Interactive Map</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./hygiene">American Hygiene</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+<!-- Interactive D3 Chart -->
+<div class="container">
+
+  <!--Custom spacing (to fix bug in the Bootswatch Cerulean template)-->
+  <div class="row">
+    <div class="col-lg-12 pt-5"></div>
+    <div class="col-lg-12 pt-5"></div>
+  </div>
+
+  <!--Body of document-->
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="scatter"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <!-- Part I: (Non-bonus) -->
+        <!-- <h2>Correlation Discovered Between Lack of Healthcare and Poverty</h2> -->
+        <!-- Part II: Bonus -->
+        <h4>Correlations Discovered Between Health Risks and Poverty, Age and Income</h4>
+        <hr></hr>
+        <p>On the right is an interactive scatter plot with circles representing each U.S. State. Click the different axes to look at the different correlations.</p>
+        <p id='descrip'>Currently, the chart plots the percentage of those lacking healthcare against the percentage of those who are in poverty.</p>
+        <p id='analysis'>The pattern of circles slanting upwards to the right shows a positive correlation between lack of healthcare and the poverty.</p>
+        <br>
+        <p class="lead">
+          <a class="btn btn-primary btn-sm" href="./map" role="button">Go to Interactive Map</a>
+        </p>
+      </div>
+      <div class="col-md-9">
+        <div class="chart"></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='js/chart_app.js') }}"></script>
+<script src="{{ url_for('static', filename='bootswatch_cerulean/jquery.min.js') }}"></script>
+<script src="{{ url_for('static', filename='bootswatch_cerulean/popper.min.js') }}"></script>
+<script src="{{ url_for('static', filename='bootswatch_cerulean/bootstrap.min.js') }}"></script>
+<script src="{{ url_for('static', filename='bootswatch_cerulean/custom.js') }}"></script>
+
+</body>
+
+</html>

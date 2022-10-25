@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>FIFA WORLD CUP ANALYSIS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="#">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="../static/js/countrygoals.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../bootswatch_cerulean/bootstrap.css" media="screen">
+</head>
+
+<body>
+    <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+        <div class="container">
+            <a href="./index.html" class="navbar-brand">FIFA WORLD CUP ANALYSIS</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./map.html">FIFA World Cup 2022 Teams</a>
+                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./countrygoals.html">Country Goals</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--Rest of landing page-->
+    <div class="container">
+
+        <!--Custom spacing (to fix bug in the Bootswatch Cerulean template)-->
+        <div class="row">
+            <div class="col-lg-12 pt-5"></div>
+            <div class="col-lg-12 pt-5"></div>
+        </div>
+        
+        <!--Body of document-->
+        <div class="jumbotron" style="padding-top: 40px!important; padding-bottom: 20px!important;"">
+          <h1 class="display-5">EACH COUNTRY GOALS FOR SPECIFIC YEAR</h1>
+          <p class="lead">How many goals are scored by each country for the selected year ?</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+
+            <div class="card border-primary mb-3" style="max-width: 20rem;">
+              <div class="card-header">Year</div>
+              <div class="card-body">
+                <select id="selDataset" class='card-text' onchange="optionChanged(this.value)"></select>
+              </div>
+            </div>
+
+            <div class="card border-primary mb-3" style="max-width: 20rem;">
+              <div class="card-header">Standings</div>
+              <div class="card-body">
+                <div id="sample-metadata" class="card-text panel-body">
+                  <h6 class="winner"> </h6>
+                  <h6 class="runner"> </h6>
+                  <h6 class="third"> </h6>
+                  <h6 class="fourth"> </h6>
+                </div>
+                  
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-md-10">
+            <div id="bar"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div id="bubble"></div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Bootstrap JS -->
+    <!-- <script src="{{ url_for('static', filename='bootswatch_cerulean/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bootswatch_cerulean/popper.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bootswatch_cerulean/bootstrap.min.js') }}"></script> -->
+
+    <!-- D3 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <!-- Custom JS -->
+    <!-- <script src="{{ url_for('static', filename='js/hygiene_app.js') }}"></script> -->
+
+</body>
+
+</html>
