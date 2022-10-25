@@ -35,6 +35,7 @@ function addingDropdownMenu(data) {
 
 }
 
+//Determining the country standings
 function standings(id){
     let tournament = standingData.filter(x => x.tournament_id === id);
     let winner = tournament.filter(x => x.position == 1)[0].team_name;
@@ -56,7 +57,7 @@ function standings(id){
 
 }
 
-//Plotting  Bar chart
+//Plotting  Bar chart based on the selected year
 function tournamentData(id) {
     let tournament = goalData.filter(x => x.tournament_id === id);
 
@@ -70,7 +71,8 @@ function tournamentData(id) {
         return res;
     }, {__array:[]}).__array
     .sort(function(a,b) { return b.away_team - a.away_team; });
-   let countryGoals = [];
+   //Creating a list of dictionaries with country name and number of goals for the selected year
+    let countryGoals = [];
     groupbyCountry.forEach(x => {
         var newCountry = {};
         newCountry.country = x.team_name;
@@ -81,6 +83,7 @@ function tournamentData(id) {
     plotBubble(countryGoals);
 }
 
+//Plotting bar chart using plotly
 function plotBar(cg){
     var xValues= [];
     var yValues = [];
@@ -107,6 +110,7 @@ function plotBar(cg){
     Plotly.newPlot("bar", data_plot, layout);
 }
 
+//Plotting bubble chart using plotly
 function plotBubble(cg){
     var xValues= [];
     var yValues = [];
