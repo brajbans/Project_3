@@ -2,7 +2,7 @@
 
 ## Project Title - FIFA World Cup 2022
 
-In this project we look into the history of FIFA World cup to gather and store the data to study which teams have scored the highest goals and won the most FIFA World Cup title.
+In this project we look into the history of FIFA World cup to gather and store the data to study which teams won the most FIFA World Cup title and the goals scored.
 
 ## Sources of Data
 
