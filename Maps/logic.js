@@ -6,10 +6,13 @@ let myMap = L.map("map", {
   zoom: 2.5,
 });
 
+
+
 // Add a tile layer.
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(myMap);
+
 
 
 // Define a markerSize() function that will give each country a different radius based on the number of world cups won.
@@ -181,6 +184,8 @@ let countries = [
  
 ];
 
+
+
 // Loop through the cities array, and create one marker for each city object.
 for (let i = 0; i < countries.length; i++) {
   L.circle(countries[i].location, {
@@ -191,4 +196,5 @@ for (let i = 0; i < countries.length; i++) {
     // This will make our marker's size proportionate to its population.
     radius: markerSize(countries[i].worldcups_won)
   }).bindPopup(`<h1>${countries[i].name}</h1> <hr> <h3>World Cups Won: ${countries[i].worldcups_won.toLocaleString()}</h3>`).addTo(myMap);
+  
 };

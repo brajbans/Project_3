@@ -13,8 +13,8 @@ import os
 
 load_dotenv()
 protocol = 'postgresql'
-username = os.environ.get('db_UserName')
-password = os.environ.get('db_Password')
+username = 'postgres'
+password = 'postgres'
 host = 'localhost'
 port = 5432
 database_name = 'project_3'
