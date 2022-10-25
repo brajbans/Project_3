@@ -6,7 +6,8 @@ In this project we look into the history of FIFA World cup to gather and store t
 
 ## Sources of Data
 
-Proposed data is sourced from ("Joshua C. Fjelstul, Ph.D."), a notice that the database is copyrighted ("© 2022 Joshua C. Fjelstul, Ph.D."), a link to the CC-BY-SA 4.0 license (https://creativecommons.org/licenses/by-sa/4.0/legalcode), and a link to this repository (https://www.github.com/jfjelstul/worldcup)
+
+The data is sourced from ("Joshua C. Fjelstul, Ph.D."), a notice that the database is copyrighted ("© 2022 Joshua C. Fjelstul, Ph.D."), a link to the CC-BY-SA 4.0 license (https://creativecommons.org/licenses/by-sa/4.0/legalcode), and a link to this repository (https://www.github.com/jfjelstul/worldcup)
 |No|Source|Link|File|
 |-|-|-|-|
 |1|Git Hub|https://github.com/jfjelstul/worldcup/tree/master/data-csv|goals.csv|
@@ -25,7 +26,7 @@ The csv file tournament_standings.csv was NOT modified as it met the requirement
 
 1. Previous world cup winners and the number of goals scored
 
-2. Upcoming world cup team finalists for 2022
+2. FIFA World Cup 2022 Teams
 
 ## Team Members  	
 
