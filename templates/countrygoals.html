@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="shortcut icon" href="#">
-
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="../static/js/countrygoals.js"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../bootswatch_cerulean/bootstrap.css" media="screen">
 </head>
@@ -67,21 +68,18 @@
               <div class="card-header">Standings</div>
               <div class="card-body">
                 <div id="sample-metadata" class="card-text panel-body">
-                  <h6 class="winner">Winner: </h6>
-                  <h6 class="runner">Runner: </h6>
-                  <h6 class="third">Third Place: </h6>
-                  <h6 class="fourth">Fourth Place: </h6>
+                  <h6 class="winner"> </h6>
+                  <h6 class="runner"> </h6>
+                  <h6 class="third"> </h6>
+                  <h6 class="fourth"> </h6>
                 </div>
                   
               </div>
             </div>
             
           </div>
-          <div class="col-md-5">
-            <div id="pie"></div>
-          </div>
-          <div class="col-md-5">
-            <div id="gauge"></div>
+          <div class="col-md-10">
+            <div id="bar"></div>
           </div>
         </div>
         <div class="row">
@@ -92,9 +90,9 @@
       </div>
 
     <!-- Bootstrap JS -->
-    <script src="{{ url_for('static', filename='bootswatch_cerulean/jquery.min.js') }}"></script>
+    <!-- <script src="{{ url_for('static', filename='bootswatch_cerulean/jquery.min.js') }}"></script>
     <script src="{{ url_for('static', filename='bootswatch_cerulean/popper.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='bootswatch_cerulean/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bootswatch_cerulean/bootstrap.min.js') }}"></script> -->
 
     <!-- D3 JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
@@ -103,7 +101,7 @@
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
     <!-- Custom JS -->
-    <script src="{{ url_for('static', filename='js/hygiene_app.js') }}"></script>
+    <!-- <script src="{{ url_for('static', filename='js/hygiene_app.js') }}"></script> -->
 
 </body>
 
