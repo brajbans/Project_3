@@ -6,18 +6,21 @@ from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
 from flask_cors import CORS, cross_origin
 from flask import Flask, jsonify
-import datetime as dt
-from dateutil.relativedelta import relativedelta
+from dotenv import load_dotenv
+import os
 
 #Database Setup
+
+load_dotenv()
 protocol = 'postgresql'
-username = 'postgres'
-password = 'postgres'
+username = os.environ.get('db_UserName')
+password = os.environ.get('db_Password')
 host = 'localhost'
 port = 5432
 database_name = 'project_3'
 rds_connection_string = f'{protocol}://{username}:{password}@{host}:{port}/{database_name}'
 engine = create_engine(rds_connection_string)
+
 
 # reflect an existing database into a new model
 Base = automap_base()
