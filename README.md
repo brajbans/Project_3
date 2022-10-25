@@ -33,17 +33,23 @@ Carlos Soda,
 Bharat Guturi,
 Balvinder Rajbans
 
-## Dataset Tables - Raw
+## Dataset Tables - Raw & Modified
 
-#### goals.csv
+#### goals.csv - Raw
 
-#### new_goals.csv
+![chart](https://github.com/brajbans/Project_3/blob/main/Images/goals%20csv%20.png)
 
-#### tournament_standings
+#### new_goals.csv - Modified
+
+![chart](https://github.com/brajbans/Project_3/blob/main/Images/new%20goals%20csv%20.png)
+
+#### tournament_standings - Raw
+
+![chart](https://github.com/brajbans/Project_3/blob/main/Images/tournament_standings%20csv.png)
 
 ## Applications used:
 
-Python - Libraries: Pandas, SQLAlchamy
+Python - Libraries: Pandas, SQLAlchemy
 
 Jupyter Notebook
 
@@ -61,14 +67,9 @@ Open python file and Import csv files into Pandas
 
 Transform tables to formal specification
 
-
-
 ##### Data Modelling - Tables :
 
 Create the tables using www.quickdatabase.com 
-
-
-
 
 ### Load:
 
@@ -76,8 +77,6 @@ Connect to postgres SQL database -> load data.
 
 Formal specification to be created that defines the tables format can be imported into postgres SQL database.
 
-
-
-
-
+## Project Report:
+To access the detailed process of Extract, Transform and Load follow the steps shown in the Project Report.
 
