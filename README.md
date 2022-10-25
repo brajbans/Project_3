@@ -77,6 +77,21 @@ Connect to postgres SQL database -> load data.
 
 Formal specification to be created that defines the tables format can be imported into postgres SQL database.
 
+#### new goals table
+![chart](https://github.com/brajbans/Project_3/blob/main/Images/new%20goals%20table.png)
+
+![chart](https://github.com/brajbans/Project_3/blob/main/Images/tournament_standings%20table.png)
+
+## Visualisations:
+![chart](https://github.com/brajbans/Project_3/blob/main/Images/World%20Cup%20Count.png)
+
+![chart](https://github.com/brajbans/Project_3/blob/main/Images/Goals%20Scored.png)
+
+![chart](https://github.com/brajbans/Project_3/blob/main/Images/Goals%20per%20year%20for%20each%20country.png)
+
+![chart](https://github.com/brajbans/Project_3/blob/main/Images/map.png)
+
+
 ## Project Report:
 To access the detailed process of Extract, Transform and Load follow the steps shown in the Project Report.
 
