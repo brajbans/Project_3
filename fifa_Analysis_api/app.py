@@ -12,7 +12,7 @@ from dateutil.relativedelta import relativedelta
 #Database Setup
 protocol = 'postgresql'
 username = 'postgres'
-password = '2090'
+password = 'postgres'
 host = 'localhost'
 port = 5432
 database_name = 'project_3'
