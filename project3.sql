@@ -16,6 +16,7 @@ CREATE TABLE goals(
   player_team_name TEXT NOT NULL,
   minute_regulation INTEGER,
   match_period TEXT,
+  match_id VARCHAR,
   PRIMARY KEY (key_id)
 );
 

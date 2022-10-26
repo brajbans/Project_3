@@ -13,8 +13,8 @@ import os
 
 load_dotenv()
 protocol = 'postgresql'
-username = 'postgres'
-password = 'postgres'
+username = os.environ.get('db_UserName')
+password = os.environ.get('db_Password')
 host = 'localhost'
 port = 5432
 database_name = 'project_3'
@@ -48,6 +48,7 @@ def goals():
         goals_dict = {}
         goals_dict["key_id"] = x.key_id
         goals_dict["tournament_id"] = x.tournament_id
+        goals_dict["match_id"] = x.match_id
         goals_dict["tournament_name"] = x.tournament_name
         goals_dict["match_name"] = x.match_name
         goals_dict["match_date"] = x.match_date
@@ -62,6 +63,7 @@ def goals():
         goals_dict["player_team_name"] = x.player_team_name
         goals_dict["minute_regulation"] = x.minute_regulation
         goals_dict["match_period"] = x.match_period
+
 
         goals.append(goals_dict)
 
