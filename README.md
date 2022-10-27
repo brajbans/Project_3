@@ -39,6 +39,7 @@ The csv file tournament_standings.csv was NOT modified as it met the requirement
 8.  templates: templates
 9.  table_creation_scripts: scripts to create tables
 10. Project_3_Presentation: Presentation file
+11. Project_3_Report: Project Report
 
 ## Execution of the code:
 1.  Create .env files with the content:
