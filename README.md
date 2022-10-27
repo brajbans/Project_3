@@ -28,6 +28,29 @@ The csv file tournament_standings.csv was NOT modified as it met the requirement
 
 2. FIFA World Cup 2022 Teams
 
+## Contents of the Folders
+1.  bootswatch_cerulean: Javascript libraries minified files
+2.  css: Style sheets
+3.  Data: raw csvs and data cleaning pandas notebook
+4.  fifa_Analysis_api: flask api
+5.  Images: Images related to readme files
+6.  Maps: Map visualisation and its logic
+7.  static: js files
+8.  templates: templates
+9.  table_creation_scripts: scripts to create tables
+10. Project_3_Presentation: Presentation file
+
+## Execution of the code:
+1.  Create .env files with the content:
+    db_UserName= <username>
+    db_Password= <userpassword>
+2.  Create tables using 'table_creation_scripts'
+3.  Execute the 'data_cleaning' jupyter notebook from 'Data' folder
+4.  Install flask-cors using 'pip install -U flask-cors'
+4.  Execute the 'app.py' from 'fifa_Analysis_api' folder
+5.  Execute 'index.html' from 'templates' folder to run the website.
+
+
 ## Team Members  	
 
 Carlos Soda,
