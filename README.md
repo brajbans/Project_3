@@ -58,6 +58,8 @@ Database - PGAdmin (PostgresSQL)
 
 Java - Libraries: d3, plotly, leaflet, chart
 
+Installation of Flask Cors is required - Use pip install -U flask-cors 
+
 ## Process:
 
 ### Extract :
@@ -94,5 +96,5 @@ Formal specification to be created that defines the tables format can be importe
 
 
 ## Project Report:
-To access the detailed process of Extract, Transform and Load follow the steps shown in the Project Report.
+To access the detailed process of Extract, Transform,Load and visualisations follow the steps shown in the Project Report.
 
