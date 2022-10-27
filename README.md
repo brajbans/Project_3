@@ -113,9 +113,18 @@ Formal specification to be created that defines the tables format can be importe
 
 ![chart](https://github.com/brajbans/Project_3/blob/main/Images/Goals%20Scored.png)
 
+![chart](https://github.com/brajbans/Project_3/blob/main/Images/Average%20goals%20per%20match.png)
+
 ![chart](https://github.com/brajbans/Project_3/blob/main/Images/Goals%20per%20year%20for%20each%20country.png)
 
 ![chart](https://github.com/brajbans/Project_3/blob/main/Images/map.png)
+    
+#### Responsive visualisations
+![chart](https://github.com/brajbans/Project_3/blob/main/Images/resposive%201.png)
+    
+![chart](https://github.com/brajbans/Project_3/blob/main/Images/resposive%202.png)
+    
+![chart](https://github.com/brajbans/Project_3/blob/main/Images/responsive%203.png)
 
 
 ## Project Report:
